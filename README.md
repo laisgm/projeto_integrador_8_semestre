@@ -1,9 +1,9 @@
 # Monitoramento de Temperatura com ESP32 + Computação Gráfica
 
-Projeto Integrador (PI) da disciplina **Sistemas Embarcados** — UNASP
-Prof. Robson Souza
+Projeto Integrador (PI) das disciplinas **Sistemas Embarcados, Sistemas de Controle e Computação Gráfica** — UNASP
+Prof. Robson Souza, Fabiano Alves e Abraao da Silva
 
-**Integrantes:** _(preencher com os nomes do grupo)_
+**Integrantes:** _Laís Gonaçalves de Melo (RA 194824), Sabrina Medina (196739)_
 
 ## O que o sistema faz
 
