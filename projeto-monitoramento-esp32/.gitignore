@@ -1,0 +1,18 @@
+# Ambiente virtual do Python
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# VS Code: ignora tudo, menos as configurações de execução do projeto
+.vscode/*
+!.vscode/launch.json
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Segredos (nunca versionar senha de Wi-Fi)
+secrets.h

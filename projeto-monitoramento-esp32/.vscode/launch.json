@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Simulado (sem hardware)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/cg_temperatura.py",
+      "args": ["--sim"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "ESP32 real (pede o IP)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/cg_temperatura.py",
+      "args": ["--ip", "${input:ipEsp32}"],
+      "console": "integratedTerminal"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ipEsp32",
+      "type": "promptString",
+      "description": "IP do ESP32 (aparece no Serial Monitor)",
+      "default": "192.168.0.50"
+    }
+  ]
+}
