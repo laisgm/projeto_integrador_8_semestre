@@ -13,7 +13,7 @@
 #include <LiquidCrystal_I2C.h>
 #include <math.h>
 
-// Configure sua rede Wi-Fi (NAO publique a senha real no GitHub!)
+// Configure sua rede Wi-Fi
 const char* ssid = "NOME_DA_SUA_REDE";
 const char* password = "SENHA_DA_SUA_REDE";
 
